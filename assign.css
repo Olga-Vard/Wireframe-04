@@ -1,0 +1,258 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header{
+	display: flex;
+	margin: 5em 10em 5em 10em;
+
+}
+
+/*.logo{
+	padding: 1rem 1rem;
+}*/
+
+.content{
+	display: flex;
+	align-items: center;
+}
+
+
+ul {
+	text-transform: uppercase;
+	font-weight: 600;
+	list-style: none;
+	font-size: small;
+	color: grey;
+	display: flex;
+	flex-direction: row;
+	align-self: flex-end;
+	
+}
+
+
+li {
+	padding: 1rem;
+
+}
+
+.contact{
+	color: #7650f9;
+}
+
+
+/*ABOUT*/
+
+.part_about {
+  display: flex;
+  flex-direction: column;
+}
+
+.hi{
+	margin-left: 10px;
+}
+
+.text_about{
+	text-align: center;
+	line-height: 1.3em;
+	font-size: medium;	
+	padding: 10px;
+	color: grey;
+}
+
+.about{
+	display: flex;
+  flex-direction: row;
+  padding-top: 2em;
+}
+
+.about_personal{
+	width: 50%;
+	padding-left: 15em;
+}
+
+.heading{
+	text-align: center;
+  font-weight: bolder;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+
+.text{
+	line-height: 1.3em;
+	font-size: medium;	
+	padding: 10px;
+	color: grey;
+}
+
+span{
+	color: black;
+}
+
+.about_contacts{
+	display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+
+}
+
+.stat_bar{
+	position: static;
+  width: 50%;
+  margin-left: 2.5vw;
+  margin-right: 7.5vw;
+  font-size: 15px;
+}
+
+.graph_1{
+	display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin-top: 10px;
+}
+
+.name{
+	
+  margin: 5px;
+  margin-left: 0;
+}
+
+.percent{
+	
+  margin: 5px;
+}
+
+.progression{
+	background-color: lightgrey;
+  border-radius: 2.55px;
+  height: 4px;
+  width: 60%;
+}
+
+.prog{
+	height: 100%;
+  background-color: #7650f9;
+}
+
+.pr_html{
+  width: 80%;
+}
+.pr_css{
+  width: 60%;
+}
+.pr_photoshop {
+  width: 50%;
+}
+.pr_sketch {
+  width: 90%;
+}
+
+
+
+/*SERVICES*/
+
+
+.services {
+  background-color: #f8f8f8;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  width: 83%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25px;
+}
+.card {
+  width: 25%;
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  border: 0.5px solid lightgrey;
+  border-radius: 5px;
+}
+
+.card > p {
+  margin: 10px;
+  margin-top: 0;
+}
+
+.header_service {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+.works{
+	/*width: 100vw;*/
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.works > button {
+	background-color: #7650f9;
+  align-self: center;
+  margin-top: 30px;
+  }
+
+.works_img{
+	/*width: 80%;*/
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.recent{
+	margin: 10px;
+}
+
+.blog{
+	/*display: flex;
+	justify-content: center;
+  flex-direction: column;*/
+	align-items: center;
+	width: 100vw;
+	padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.blog_img{
+	/*display: flex;
+	justify-content: center;
+  flex-direction: column;*/
+  padding: 50px;
+}
+
+.btn{
+	
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  border: 2px solid #7650f9;
+  border-radius: 25px;
+  background-color: #7650f9;
+  color: white;
+  font-size: 12.5px;
+  font-weight: bold;
+  box-shadow: 5px 5px 3px gray;
